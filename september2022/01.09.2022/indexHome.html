@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oliinyk Anna</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap");
+      body {
+        margin: 0;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Anek Telugu", sans-serif;
+      }
+      h2 {
+        
+        color: white;
+        
+      }
+      .board {
+        width: 1500px;
+        height: 600px;
+        background: rgb(190, 189, 189);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 20px;
+        align-items: center;
+        margin: 0;
+      }
+      .left-board {
+        width: 590px;
+        height: 590px;
+        background: rgb(230, 122, 122);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+      }
+      .right-board__top {
+        width: 890px;
+        height: 250px;
+        background: rgb(174, 226, 115);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+      }
+      .right-board__bottom-left {
+        background: rgb(233, 154, 233);
+        height: 320px;
+        width: 435px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+      }
+      .right-board__bottom-aside {
+        background: rgb(168, 168, 252);
+        height: 150px;
+        width: 435px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+      }
+      .right-board {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+      }
+      .board__bottom-aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .right-board__bottom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: space-between;
+      }
+      @media (max-width: 768px){
+        body {
+        margin: 0;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+      }
+      
+      .board {
+        width: 100%;
+        height: 100%;
+        display: block; 
+        padding: 0;
+        align-items: center;
+        margin: 0;
+        box-sizing: border-box;
+        
+      }
+      .left-board {
+        width: 100%;
+        height: 234px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .right-board__top {
+        width: 100%;
+        height: 190px;
+        margin-left: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .right-board__bottom-left {
+        
+        height: 150px;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        
+      }
+      .right-board__bottom-aside {
+        height: 105px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        
+        
+        
+      }
+      .right-board {
+        display: block;
+        
+      }
+      .board__bottom-aside {
+        display: block;
+        
+      }
+      .right-board__bottom {
+        display: block;
+        
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="board">
+      <div class="left-board"><h2>1</h2></div>
+      <div class="right-board">
+        <div class="right-board__top"><h2>2</h2></div>
+        <div class="right-board__bottom">
+          <div class="right-board__bottom-left"><h2>3</h2></div>
+          <div class="board__bottom-aside">
+            <div class="right-board__bottom-aside"><h2>4a</h2></div>
+            <div class="right-board__bottom-aside"><h2>4b</h2></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
